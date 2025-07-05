@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axiologia do Conteúdo™ V2 - O Futuro do Posicionamento</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Alpine.js for interactivity -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+    <!-- Favicon (using the provided logo) -->
+    <link rel="icon" href="https://i.imgur.com/gCqI9eC.png" type="image/png">
+
+    <style>
+        /* Custom styles for the futuristic theme */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #050505;
+            color: #e0e0e0;
+            overflow-x: hidden;
+        }
+
+        /* Glassmorphism effect for containers */
+        .glass-container {
+            background: rgba(15, 15, 15, 0.6);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1.5rem;
+        }
+        
+        /* Neon red accent color */
+        .neon-red-text {
+            color: #ff3b3b;
+            text-shadow: 0 0 5px #ff3b3b, 0 0 10px #ff3b3b;
+        }
+        .neon-red-bg {
+            background-color: #d92323;
+            box-shadow: 0 0 15px #d92323, 0 0 25px rgba(217, 35, 35, 0.7);
+        }
+        .neon-red-border {
+            border-color: #ff3b3b;
+            box-shadow: 0 0 10px #ff3b3b;
+        }
+
+        /* Gradient text effect */
+        .gradient-text {
+            background: linear-gradient(90deg, #ffffff, #b0b0b0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Animation for fade-in on scroll */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in-section {
+            animation: fadeIn 1s ease-out forwards;
+            opacity: 0; /* Start hidden */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C+tenho+uma+d%C3%BAvida+sobre+o+Axiologia+do+Conte%C3%BAdo%E2%84%A2" target="_blank" class="fixed bottom-6 right-6 z-40 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 4.315 1.731 6.086l.001.004 4.971 4.971z"/>
+        </svg>
+    </a>
+
+    <!-- Main Content -->
+    <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Section 1: Hero / VSL -->
+        <section id="hero" class="text-center py-16 md:py-24">
+            <img src="https://i.imgur.com/gCqI9eC.png" alt="Logo Axiologia do Conteúdo" class="w-24 h-24 mx-auto mb-8" onerror="this.onerror=null;this.src='https://placehold.co/96x96/000000/e5e5e5?text=Logo';">
+            <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-4">
+                O sistema que decodifica <span class="gradient-text">seus valores</span> em <span class="gradient-text">conteúdo magnético</span>.
+            </h1>
+            <p class="text-lg md:text-xl text-neutral-300 max-w-2xl mx-auto mb-10">
+                Você não precisa de um novo modelo. Precisa da <strong class="text-white">coragem</strong> para transmitir o que ninguém mais transmite.
+            </p>
+            <div class="glass-container aspect-video max-w-3xl mx-auto my-10 flex items-center justify-center p-2">
+                <div class="bg-black w-full h-full rounded-xl flex items-center justify-center">
+                    <svg class="w-16 h-16 text-neutral-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <p class="text-neutral-600 mt-2 absolute">VSL - Transmissão Iniciada</p>
+                </div>
+            </div>
+            <a href="#investimento" class="inline-block neon-red-bg text-white font-bold py-4 px-12 rounded-lg text-xl hover:scale-105 transition-transform">
+                INICIAR PROTOCOLO POR R$97
+            </a>
+        </section>
+
+        <!-- Section 2: Tension -->
+        <section id="tensao" class="py-16 md:py-24 fade-in-section">
+            <div class="glass-container p-8 md:p-12">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-4xl md:text-5xl font-black tracking-tighter">O Sinal que se Perde no Ruído.</h2>
+                    <div class="text-2xl md:text-3xl font-semibold text-neutral-300 mt-10 space-y-6">
+                        <p>Você estuda. Escreve. Posta.</p>
+                        <p>Mas ainda sente que <strong class="text-white">ninguém escuta.</strong></p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center mt-16 text-lg">
+                        <div class="bg-black/50 p-6 rounded-xl border border-neutral-800">
+                            <p>Tem conteúdo <br><span class="text-neutral-400">mas não tem autoridade.</span></p>
+                        </div>
+                        <div class="bg-black/50 p-6 rounded-xl border border-neutral-800">
+                            <p>Tem técnica <br><span class="text-neutral-400">mas falta alma.</span></p>
+                        </div>
+                        <div class="bg-black/50 p-6 rounded-xl border border-neutral-800">
+                            <p>Tem conhecimento <br><span class="text-neutral-400">mas não impacta.</span></p>
+                        </div>
+                    </div>
+                    <p class="mt-12 text-xl text-neutral-300">E o pior? Você já sabe disso. Só não sabia o que estava faltando. Enquanto isso, outros profissionais — talvez com menos expertise que você — constroem autoridade, atraem clientes e lideram conversas no seu próprio mercado.</p>
+                    <p class="mt-8 text-xl text-white font-bold">Não é sobre sorte. É sobre posicionamento. Você tem algo importante a dizer. Sempre teve. O problema é que você esqueceu como dizer de um jeito que importe.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Diagnosis -->
+        <section id="diagnostico" class="py-16 md:py-24 text-center fade-in-section">
+            <h2 class="text-4xl md:text-5xl font-black tracking-tighter">Diagnóstico da Falha de Transmissão</h2>
+            <p class="text-lg text-neutral-300 mt-6 max-w-3xl mx-auto">Deixe-me ser direto sobre o que está acontecendo: <strong class="text-white">o que você posta não representa sua verdade.</strong></p>
+            <div class="mt-12 space-y-4 text-xl max-w-xl mx-auto">
+                <p>Parece inteligente, <span class="text-neutral-400">mas soa inseguro.</span></p>
+                <p>Quer ensinar, <span class="text-neutral-400">mas não impacta.</span></p>
+                <p>Tenta vender... <span class="text-neutral-400">e trava.</span></p>
+            </div>
+            <p class="mt-10 text-xl text-neutral-300 max-w-3xl mx-auto">Por quê? Porque você se perdeu no meio das fórmulas. Esqueceu quem você era antes das estratégias. Passou tanto tempo tentando falar como os "experts" falam que parou de falar como você fala. O resultado? Conteúdo genérico que qualquer concorrente poderia assinar.</p>
+            <div class="mt-12 glass-container border-red-500/30 p-8 rounded-2xl max-w-3xl mx-auto">
+                <h3 class="text-xl font-bold neon-red-text tracking-widest">A VERDADE BRUTAL</h3>
+                <p class="text-2xl font-semibold text-white mt-4">Não falta técnica. Falta <strong class="gradient-text">coragem</strong> para se posicionar baseado no que você realmente acredita.</p>
+            </div>
+        </section>
+        
+        <!-- Section 4: The Solution -->
+        <section id="solucao" class="py-16 md:py-24 text-center fade-in-section">
+            <h2 class="text-4xl md:text-5xl font-black tracking-tighter">O Corte: Uma Abordagem Diferente</h2>
+            <p class="text-xl text-neutral-300 max-w-3xl mx-auto mt-6">Axiologia do Conteúdo™ <strong class="text-white">não é um curso. É uma ruptura.</strong> Um método híbrido que começa no eixo interno — valores, propósito, visão — e termina no mundo externo com conteúdo que posiciona, provoca e vende.</p>
+            <p class="text-xl text-neutral-300 max-w-3xl mx-auto mt-6">Não é sobre viralizar. É sobre liderar. Não é sobre seguir fórmulas. É sobre criar as suas próprias. Por que funciona? Porque usa a abordagem aristotélica de 2.400 anos que formou todos os grandes líderes da história, aplicada ao mundo digital:</p>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="glass-container p-6">
+                    <h3 class="font-bold text-lg neon-red-text">ETHOS</h3>
+                    <p class="text-neutral-400 mt-2">Credibilidade baseada em caráter e autoridade moral.</p>
+                </div>
+                <div class="glass-container p-6">
+                    <h3 class="font-bold text-lg neon-red-text">PATHOS</h3>
+                    <p class="text-neutral-400 mt-2">Conexão através de valores e emoções compartilhadas.</p>
+                </div>
+                <div class="glass-container p-6">
+                    <h3 class="font-bold text-lg neon-red-text">LOGOS</h3>
+                    <p class="text-neutral-400 mt-2">Argumentação estruturada, lógica e irrefutável.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: The Method -->
+        <section id="metodo" class="py-16 md:py-24 fade-in-section">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-black tracking-tighter">O Método em 3 Fases (3 Horas)</h2>
+            </div>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <div class="glass-container p-8">
+                    <h3 class="font-bold text-xl neon-red-text mb-3">FASE 1: O CORTE (60 min)</h3>
+                    <p class="text-lg text-neutral-300">Descubra o valor mais alto que justifica sua presença digital. Você não posta por algoritmo. Você posta por missão. Aqui, identificamos o núcleo da sua mensagem, o "porquê" inegociável que sustenta tudo.</p>
+                </div>
+                <div class="glass-container p-8">
+                    <h3 class="font-bold text-xl neon-red-text mb-3">FASE 2: A CONSTRUÇÃO (60 min)</h3>
+                    <p class="text-lg text-neutral-300">Defina os 3 pilares da sua presença digital: o que você combate (seu antagonista), o que você acredita (sua tese) e o que você defende (sua bandeira). Isso cria um campo de força ao redor da sua marca.</p>
+                </div>
+                <div class="glass-container p-8">
+                    <h3 class="font-bold text-xl neon-red-text mb-3">FASE 3: A EXECUÇÃO (60 min)</h3>
+                    <p class="text-lg text-neutral-300">Transforme os pilares em ação. Você sai com 30 ideias prontas e 10 conteúdos completos. Texto, vídeo, carrossel — não importa o formato. Você saberá como entregar sua verdade de forma magnética e eficaz.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Bonus Stack Section -->
+        <section id="bonus" class="py-16 md:py-24 fade-in-section">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-black tracking-tighter">Pacote de Bônus <span class="gradient-text">Implementação Rápida</span></h2>
+                <p class="text-lg text-neutral-400 mt-4">Você não sai apenas com o método. Sai com um arsenal de execução para gerar resultados imediatos.</p>
+            </div>
+            <div class="max-w-2xl mx-auto space-y-6">
+                <!-- Bonus 1 -->
+                <div class="glass-container p-6 flex items-center gap-4">
+                    <span class="text-2xl font-black neon-red-text">01</span>
+                    <div>
+                        <h3 class="font-bold text-lg text-white">Agente de Identidade Axiológica™</h3>
+                        <p class="text-neutral-400">Uma IA treinada com sua essência para garantir que todo conteúdo reflita seus valores.</p>
+                    </div>
+                </div>
+                <!-- Bonus 2 -->
+                <div class="glass-container p-6 flex items-center gap-4">
+                    <span class="text-2xl font-black neon-red-text">02</span>
+                    <div>
+                        <h3 class="font-bold text-lg text-white">Agente de Ideias Profundas™</h3>
+                        <p class="text-neutral-400">Gerador de temas com base em virtudes — coragem, verdade, justiça — que conectam com sua filosofia pessoal.</p>
+                    </div>
+                </div>
+                <!-- Bonus 3 -->
+                <div class="glass-container p-6 flex items-center gap-4">
+                    <span class="text-2xl font-black neon-red-text">03</span>
+                    <div>
+                        <h3 class="font-bold text-lg text-white">Planner Axiológico™</h3>
+                        <p class="text-neutral-400">Visual, simples, prático: da virtude à publicação com clareza. Nunca mais fique sem saber o que postar.</p>
+                    </div>
+                </div>
+                <!-- Bonus 4 -->
+                <div class="glass-container p-6 flex items-center gap-4">
+                    <span class="text-2xl font-black neon-red-text">04</span>
+                    <div>
+                        <h3 class="font-bold text-lg text-white">Framework V.A.L.O.R.™</h3>
+                        <p class="text-neutral-400">O sistema que transforma qualquer valor em post magnético: Verdade + Antagonista + Lógica + Oportunidade + Responsabilidade.</p>
+                    </div>
+                </div>
+                <!-- Bonus 5 -->
+                <div class="glass-container p-6 flex items-center gap-4">
+                    <span class="text-2xl font-black neon-red-text">05</span>
+                    <div>
+                        <h3 class="font-bold text-lg text-white">Biblioteca de Tensões Produtivas™</h3>
+                        <p class="text-neutral-400">20 "starters" prontos que sempre geram conteúdo relevante baseado na sua visão de mundo.</p>
+                    </div>
+                </div>
+            </div>
+             <div class="mt-12 text-center text-xl">
+                <span class="text-neutral-400 line-through">Valor Real de todo o pacote: R$497</span>
+                <strong class="block mt-2 text-2xl text-white">Seu Custo Hoje pelos Bônus: <span class="neon-red-text">R$0</span></strong>
+            </div>
+        </section>
+
+        <!-- Section 8 & 9: Investment & Final CTA -->
+        <section id="investimento" class="py-16 md:py-24 fade-in-section">
+            <div class="glass-container border-red-500/50 p-8 md:p-12 text-center">
+                <h2 class="text-4xl md:text-5xl font-black tracking-tighter">Sua Próxima Ação Define os Próximos Ciclos</h2>
+                <p class="text-lg text-neutral-300 mt-4 max-w-xl mx-auto">Continue executando o script antigo e o ruído persistirá. Ou inicie o novo protocolo e reescreva o futuro.</p>
+                <div class="my-10 p-8 bg-black rounded-2xl max-w-md mx-auto border border-neutral-800">
+                    <p class="font-bold text-lg">Acesso ao Protocolo Completo</p>
+                    <p class="text-3xl font-black neon-red-text tracking-wider">AXIOLOGIA DO CONTEÚDO™</p>
+                    <div class="my-6">
+                        <span class="text-6xl font-black text-white">R$97</span>
+                        <span class="text-lg text-neutral-400">transação única</span>
+                    </div>
+                     <p class="text-neutral-400">Compare:</p>
+                    <p class="text-sm text-neutral-500">1 hora de consultoria: R$ 300-500</p>
+                    <p class="text-sm text-neutral-500">Curso de conteúdo médio: R$ 497-997</p>
+                </div>
+                <a href="#" class="inline-block w-full max-w-md mx-auto neon-red-bg text-white font-bold py-5 px-12 rounded-lg text-xl hover:scale-105 transition-transform">
+                    EXECUTAR TRANSAÇÃO E INICIAR
+                </a>
+                <p class="text-sm text-neutral-500 mt-3">Acesso imediato. Garantia de 7 ciclos.</p>
+            </div>
+        </section>
+
+        <!-- Who it's for section -->
+        <section id="publico" class="py-16 md:py-24 fade-in-section">
+            <h2 class="text-4xl font-black tracking-tighter text-center mb-12">Este Protocolo é Para Você?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="glass-container p-8">
+                    <h3 class="font-bold text-xl text-white mb-4">SIM, se você:</h3>
+                    <ul class="space-y-3 text-neutral-300">
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Tem expertise mas sente que isso não transparece no seu conteúdo.</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Quer se posicionar mas tem medo de gerar polêmica ou ser "cancelado".</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Está cansado de depender de fórmulas, templates e hacks de algoritmo.</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Quer conteúdo que vende sem precisar fazer dancinha ou soar comercial.</span></li>
+                         <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Tem valores sólidos mas não sabe como aplicá-los digitalmente.</span></li>
+                    </ul>
+                </div>
+                <div class="glass-container p-8">
+                    <h3 class="font-bold text-xl text-white mb-4">NÃO, se você:</h3>
+                    <ul class="space-y-3 text-neutral-300">
+                        <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">✕</span><span>Quer uma fórmula mágica de viralização da noite para o dia.</span></li>
+                        <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">✕</span><span>Não tem interesse em autoconhecimento e desenvolvimento pessoal.</span></li>
+                        <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">✕</span><span>Prefere copiar o que outros estão fazendo a desenvolver uma voz própria.</span></li>
+                        <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">✕</span><span>Acha que sucesso digital é só sobre técnica e ferramentas.</span></li>
+                        <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">✕</span><span>Não está disposto a se posicionar com coragem e defender suas ideias.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-16 md:py-24 fade-in-section max-w-3xl mx-auto">
+            <h2 class="text-4xl font-black tracking-tighter text-center mb-12">Perguntas Frequentes</h2>
+            <div class="space-y-4" x-data="{ open: null }">
+                <!-- FAQ Item 1 -->
+                <div class="glass-container px-6 py-4">
+                    <button @click="open = open === 1 ? null : 1" class="w-full flex justify-between items-center text-left text-lg font-semibold">
+                        <span>Para quem é este método?</span>
+                        <span class="transform transition-transform" :class="{'rotate-45': open === 1}">+</span>
+                    </button>
+                    <div x-show="open === 1" x-transition class="mt-4 text-neutral-300">
+                        <p>Ideal para consultores, coaches, terapeutas, advogados, médicos, e qualquer especialista que tem conhecimento valioso mas luta para transformar isso em autoridade digital e vendas.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 2 -->
+                <div class="glass-container px-6 py-4">
+                    <button @click="open = open === 2 ? null : 2" class="w-full flex justify-between items-center text-left text-lg font-semibold">
+                        <span>Em quanto tempo terei acesso?</span>
+                        <span class="transform transition-transform" :class="{'rotate-45': open === 2}">+</span>
+                    </button>
+                    <div x-show="open === 2" x-transition class="mt-4 text-neutral-300">
+                        <p>O acesso é imediato. Assim que o pagamento for confirmado, você receberá um e-mail com todas as instruções para iniciar o protocolo imediatamente.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 3 -->
+                <div class="glass-container px-6 py-4">
+                    <button @click="open = open === 3 ? null : 3" class="w-full flex justify-between items-center text-left text-lg font-semibold">
+                        <span>E se eu não gostar? Qual a garantia?</span>
+                        <span class="transform transition-transform" :class="{'rotate-45': open === 3}">+</span>
+                    </button>
+                    <div x-show="open === 3" x-transition class="mt-4 text-neutral-300">
+                        <p>Você tem uma garantia incondicional de 7 dias. Se, por qualquer motivo, achar que o método não é para você, basta nos contatar e faremos o reembolso integral do seu investimento, sem burocracia.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 4 -->
+                <div class="glass-container px-6 py-4">
+                    <button @click="open = open === 4 ? null : 4" class="w-full flex justify-between items-center text-left text-lg font-semibold">
+                        <span>Isso funciona para qualquer nicho?</span>
+                        <span class="transform transition-transform" :class="{'rotate-45': open === 4}">+</span>
+                    </button>
+                    <div x-show="open === 4" x-transition class="mt-4 text-neutral-300">
+                        <p>Sim. O método não se baseia em táticas de nicho, mas em princípios universais de posicionamento e comunicação. Ele funciona para qualquer mercado porque parte da sua verdade, que é única e aplicável em qualquer contexto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-10">
+        <p class="text-neutral-600">Axiologia do Conteúdo™ // Fim da Transmissão</p>
+    </footer>
+    
+    <!-- JS for animations -->
+    <script>
+        // This listener waits for the DOM to be ready before manipulating it.
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            // --- Scroll animations ---
+            const sections = document.querySelectorAll('.fade-in-section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.classList.add('fadeIn');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            sections.forEach(section => { observer.observe(section); });
+        });
+    </script>
+
+</body>
+</html>
